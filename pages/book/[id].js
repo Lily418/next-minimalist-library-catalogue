@@ -2,7 +2,6 @@ import { readBooks } from "../../catalogue/readBooks";
 import { useParams } from "next/navigation";
 
 export default function Book({ book }) {
-  console.log("book", book);
   return (
     <>
       <h1>{book.title}</h1>
