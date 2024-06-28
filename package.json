@@ -9,7 +9,10 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@babel/runtime": "^7.24.7",
+    "@natlibfi/marc-record-serializers": "^10.1.2",
     "@netlify/plugin-nextjs": "^5.4.0",
+    "html-entities": "^2.5.2",
     "next": "^14.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
