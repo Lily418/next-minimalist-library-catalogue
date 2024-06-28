@@ -7,8 +7,8 @@ export default function Book({ book }) {
       <h1>{book.title}</h1>
       <figure>
         <img
-          alt="book cover image"
-          src={`https://covers.openlibrary.org/b/isbn/${book.isbn}`}
+          alt={`book cover for ${book.title}`}
+          src={`https://covers.openlibrary.org/b/isbn/${book.isbn}-M.jpg`}
         />
         <figcaption>
           Cover images provided by{" "}
