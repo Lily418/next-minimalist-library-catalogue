@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 html {
   font-family: sans-serif;
   font-size: 1.2em;
@@ -5,6 +9,17 @@ html {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 table {
@@ -60,4 +75,13 @@ li {
 img {
   width: 180px;
   height: 280px;
+}
+
+footer {
+ padding: 10px;
+ font-size: 12px;
+}
+
+footer p {
+  margin: 0;
 }
