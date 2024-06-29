@@ -10,7 +10,7 @@ export default function Home({ books }) {
       <main>
         <CatalogueHead />
         <h1>{metadata.name}</h1>
-        <p>{metadata.description}</p>
+        <p dangerouslySetInnerHTML={{ __html: metadata.description }}></p>
         <ul>
           {books.map((book) => (
             <li>
